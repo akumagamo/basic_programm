@@ -11,14 +11,21 @@ Pre Setup Atom Editor Setup
       ['ctrl-alt-q','ctrl-alt-[','ctrl-alt-]'].indexOf(binding.keystrokes) == - 1
    );
 
-Git ssh-key
+Setup Git global
 
- 1) ...
+ 1) Name
+ 1) Email
+
+Git ssh-key global
+
+ 1) TODO
 
 Setup Git Repository
 
  1) create github repo [via webbrowser ... ]
  1) clone Repo [git clone git@github.com:akumagamo/....git ]
+ 1) create .gitignore
+ 1.1) /node_modules
  1) create app folder [ coolapp ]
  1) create source folder [ coolapp/source ]
  1) create setup file [ coolapp/setup.txt ]
@@ -39,8 +46,8 @@ Setup node package
 
 Setup Test Framework
 
- 1) install mocha [ npm install mocha --save ]
- 1) install cucumber [ npm install cucumber --save ]
+ 1) install mocha [ npm install mocha --save-dev ]
+ 1) install cucumber [ npm install cucumber --save-dev ]
  1) create folder structure
  1.1) mkdir tests
  1.1) mkdir tests/features
