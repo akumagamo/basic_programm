@@ -1,0 +1,48 @@
+Todo
+1) create base Project to clone with folders and boilerplate files
+1) update setup-script for cloning project
+1) how to setup git-ssh-key
+
+
+Pre Setup Atom Editor Setup
+
+ 1) edit init.coffee
+   atom.keymaps.keyBindings = atom.keymaps.keyBindings.filter((binding, i) ->
+      ['ctrl-alt-q','ctrl-alt-[','ctrl-alt-]'].indexOf(binding.keystrokes) == - 1
+   );
+
+Git ssh-key
+
+ 1) ...
+
+Setup Git Repository
+
+ 1) create github repo [via webbrowser ... ]
+ 1) clone Repo [git clone git@github.com:akumagamo/....git ]
+ 1) create app folder [ coolapp ]
+ 1) create source folder [ coolapp/source ]
+ 1) create setup file [ coolapp/setup.txt ]
+
+Setup node package
+
+ 1) npm init
+ 1.1) set "name" [ appname ]
+ 1.1) set "version" [ 0.0.1 ]
+ 1.1) set "description" [ ... appname description ... ]
+ 1.1) set "entry point" [ index.js ]
+ 1.1) set "test command" [ ./node_modules/.bin/cucumber.js ]
+ 1.1) set "git repository" [ git@github.com:akumagamo/....git ]
+ 1.1) set "keywords" [ ... appname keywords ...]
+ 1.1) set "author" [ Charles Lam <akumagamo@hotmail.com> URL ]
+ 1.1) set "license" [ CC-BY-4.0 ]
+ 1.1) confirm [ yes ]
+
+Setup Test Framework
+
+ 1) install mocha [ npm install mocha --save ]
+ 1) install cucumber [ npm install cucumber --save ]
+ 1) create folder structure
+ 1.1) mkdir tests
+ 1.1) mkdir tests/features
+ 1.1) mkdir tests/features/step_definitions
+ 1.1) mkdir tests/features/support_files

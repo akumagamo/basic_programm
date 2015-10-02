@@ -1,0 +1,23 @@
+{
+  "name": "source",
+  "version": "0.0.1",
+  "description": "basic programm, setup for a node application/module",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:akumagamo/basic_programm.git"
+  },
+  "keywords": [
+    "base",
+    "programm"
+  ],
+  "author": "Charles Lam <akumagamo@hotmail.com>",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/akumagamo/basic_programm/issues"
+  },
+  "homepage": "https://github.com/akumagamo/basic_programm"
+}
