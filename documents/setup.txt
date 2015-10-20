@@ -54,3 +54,6 @@ Setup Test Framework
  1.1) mkdir tests/features/step_definitions
  1.1) mkdir tests/features/support_files
  1.1) create a .gitignore file for every subfolder
+ 1) Update "scripts.test" package.json
+ 1.1) for mocha tests
+ 1.1) for cucumber tests
