@@ -37,7 +37,7 @@ Setup node package
  1.1) set "version" [ 0.0.1 ]
  1.1) set "description" [ ... appname description ... ]
  1.1) set "entry point" [ index.js ]
- 1.1) set "test command" [ ./node_modules/.bin/cucumber.js ]
+ 1.1) set "test command" [ ... press Enter, and fill later ... ]
  1.1) set "git repository" [ git@github.com:akumagamo/....git ]
  1.1) set "keywords" [ ... appname keywords ...]
  1.1) set "author" [ Charles Lam <akumagamo@hotmail.com> URL ]
@@ -48,6 +48,7 @@ Setup Test Framework
 
  1) install mocha [ npm install mocha --save-dev ]
  1) install cucumber [ npm install cucumber --save-dev ]
+ 1) install jshint [ npm install jshint --save-dev ]
  1) create folder structure
  1.1) mkdir tests
  1.1) mkdir tests/features
@@ -55,5 +56,6 @@ Setup Test Framework
  1.1) mkdir tests/features/support_files
  1.1) create a .gitignore file for every subfolder
  1) Update "scripts.test" package.json
+ 1.1) for jshint "all code"
  1.1) for mocha tests
  1.1) for cucumber tests
