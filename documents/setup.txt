@@ -1,9 +1,17 @@
 Todo
+
 1) create base Project to clone with folders and boilerplate files
 1) update setup-script for cloning project
 1) how to setup git-ssh-key
 1) missing node_modules folder
 
+Accounts
+
+1) Gravatar
+1) Heroku
+1) Stackoverflow
+1) Github
+1) Npm 
 
 Pre Setup Atom Editor Setup
 
