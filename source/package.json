@@ -1,20 +1,36 @@
 {
   "name": "source",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "basic programm, setup for a node application/module",
-  "main": "index.js",
+  "main": "app.js",
+    "directories": {
+    "test": "tests",
+	"lib": "lib"
+  },
+  "dependencies": {  },
+  "devDependencies": {
+    "cucumber": "^0.10.1",
+	"jsdoc": "^3.4.0",
+    "jshint": "^2.9.1",
+	"mocha": "^2.4.5",
+	"selenium-webdriver": "^2.53.1"
+  },
   "scripts": {
-    "test": "cucumber.js"
+    "cucumber": "cucumberjs ./tests",
+	"jsdoc": "jsdoc -d ../documents/jsdoc . ./lib",
+	"jshint": "jshint index.js lib",
+	"test": "npm run jshint && npm run mocha && npm run cucumber && npm run jsdoc",
+	"mocha": "mocha ./tests"	
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:akumagamo/basic_programm.git"
   },
   "keywords": [
-    "base",
-    "programm"
+    "node-app",
+    "boilerplate"
   ],
-  "author": "Charles Lam <akumagamo@hotmail.com>",
+  "author": "Charles Lam  <charles.lam@gmx.at>",
   "license": "CC-BY-4.0",
   "bugs": {
     "url": "https://github.com/akumagamo/basic_programm/issues"
