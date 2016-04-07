@@ -35,6 +35,7 @@ git@github.com:akumagamo/...
 
      +-+- basic_programm
        +-+- documents
+       | +- jsdoc  (output directory for jsdoc script)
        | +- ...
        +-+- logs (logfile default folder)
        | +- ...
@@ -53,7 +54,7 @@ git@github.com:akumagamo/...
 	   | +- demo.js (demo mocha file)
        | +- ...
        +- readme.md (this document)
-       +- app.js
+       +- app.js 
        +- package.json
        +- selenium.js  (demo selenium file)
        +- LICENSE
@@ -72,3 +73,4 @@ git@github.com:akumagamo/...
 * jshint 
 * mocha
 * selenium-webdriver
+    * chromedriver.exe ( or/and others )

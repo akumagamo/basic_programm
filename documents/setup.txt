@@ -15,7 +15,7 @@ Todo
 
 #Tools / Libs / Frameworks
 
-1) Atom, Chrome, Firefox, Selenium, PhantomJs, Nodejs, Git, ...
+1) Atom, Chrome, Firefox, Selenium(+webdrivers), PhantomJs, Nodejs, Git,  ...
 1) Frameworks (Angular, Bootstrap, Jade, React, ... )
 1) DBs (SQLITE, postgreSql, mongoDB, ... )
 
@@ -51,11 +51,11 @@ Setup node package
  1.1) set "name" [ appname ]
  1.1) set "version" [ 0.0.1 ]
  1.1) set "description" [ ... appname description ... ]
- 1.1) set "entry point" [ index.js ]
+ 1.1) set "entry point" [ app.js ]
  1.1) set "test command" [ ... press Enter, and fill later ... ]
  1.1) set "git repository" [ git@github.com:akumagamo/....git ]
  1.1) set "keywords" [ ... appname keywords ...]
- 1.1) set "author" [ Charles Lam <akumagamo@hotmail.com> URL ]
+ 1.1) set "author" [ Charles Lam <charles.lam@gmx.at> URL ]
  1.1) set "license" [ CC-BY-4.0 ]
  1.1) confirm [ yes ]
 
@@ -64,6 +64,8 @@ Setup Test Framework
  1) install mocha [ npm install mocha --save-dev ]
  1) install cucumber [ npm install cucumber --save-dev ]
  1) install jshint [ npm install jshint --save-dev ]
+ 1) install jsdocs [ npm install jsdoc --save-dev ]
+ 1) install selenium-webdriver[ npm install selenium-webdriver --save-dev ]
  1) create folder structure
  1.1) mkdir tests
  1.1) mkdir tests/features
@@ -72,6 +74,7 @@ Setup Test Framework
  1.1) create a .gitignore file for every subfolder
  1) Update "scripts.test" package.json
  1.1) for jshint "all code"
+ 1.1) for jsdoc 
  1.1) for mocha tests
  1.1) for cucumber tests
 
